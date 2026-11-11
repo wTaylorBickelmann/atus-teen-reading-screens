@@ -1,0 +1,27 @@
+[project]
+name = "atus-teen-reading"
+version = "0.1.0"
+description = "Does screen time explain reading among ATUS respondents aged 15–18?"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "marimo>=0.25",
+    "pandas>=2.2",
+    "pyarrow>=15",
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
+    "matplotlib>=3.8",
+    "seaborn>=0.13",
+    "patsy>=0.5",
+]
+
+[project.scripts]
+atus-teen = "atus_teen.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
