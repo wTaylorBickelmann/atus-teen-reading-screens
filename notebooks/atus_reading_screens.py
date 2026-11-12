@@ -187,7 +187,8 @@ def _(analysis, mo, plot_correlation):
                 """
                 ## Correlations
 
-                Pearson correlations use the survey weights. Income bracket and
+                Pearson correlations use the survey weights. Survey year is a
+                control in the regressions and is omitted here. Income bracket and
                 parent education are ordinal codes; rows with a missing code are
                 dropped for that pair only. Total screen time is the sum of TV,
                 games, and computer use, so those cells are large by construction.

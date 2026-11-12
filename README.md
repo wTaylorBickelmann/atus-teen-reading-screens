@@ -18,11 +18,13 @@ Weighted deciles are mostly flat. The top decile, about 9.8 hours of screen time
 
 ![Weighted correlation heatmap](figures/corr_heatmap.png)
 
+The heatmap is weighted correlations among reading, the screen components, and the demographic controls. Survey year stays in the regressions and is left out of this matrix.
+
 ![Screen-time coefficients](figures/screen_coef_forest.png)
 
 The full-model coefficient plot, including controls other than year, is in [`figures/full_model_coefs.png`](figures/full_model_coefs.png). School enrollment and employment are associated with about 5 fewer reading minutes, larger than one extra screen hour, and the model still leaves about 98% of diary-day reading unaccounted for.
 
-A static export of the notebook, with the same figures and tables, is in [`docs/atus_reading_screens.html`](docs/atus_reading_screens.html).
+The rendered notebook is at [https://wtaylorbickelmann.github.io/atus-teen-reading-screens/](https://wtaylorbickelmann.github.io/atus-teen-reading-screens/). That page is the committed HTML export, published by GitHub Pages on each push to `main`. The same file is in the repo at [`docs/atus_reading_screens.html`](docs/atus_reading_screens.html).
 
 ## How to run
 

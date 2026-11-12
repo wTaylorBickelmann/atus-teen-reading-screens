@@ -398,7 +398,6 @@ CORR_COLUMNS = [
     ("summer", "Summer"),
     ("income_code", "Income bracket"),
     ("parent_educ", "Parent education"),
-    ("year", "Year"),
 ]
 
 
