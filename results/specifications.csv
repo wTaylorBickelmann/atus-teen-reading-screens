@@ -1,0 +1,11 @@
+spec,label,estimate,se,ci_low,ci_high,n,fit,unit,note
+bivariate,Bivariate OLS,-0.4331108253037644,0.15494068519129364,-0.7368192056332561,-0.1294024449742726,12167,0.0012474758990707047,Minutes of reading per extra screen hour,Weighted R²
+diary,"OLS + weekend, holiday, summer, year",-0.5647568746862159,0.16741027584968207,-0.8929076355147693,-0.23660611385766261,12167,0.008036046177398393,Minutes of reading per extra screen hour,Weighted R²
+full,OLS + full controls,-0.5440477344516536,0.2084461865606815,-0.9526354054564863,-0.13546006344682077,12167,0.02157567631203494,Minutes of reading per extra screen hour,Weighted R²
+no_2020,"OLS + full controls, excluding 2020",-0.5396845355100544,0.2215376999056664,-0.9739347955117944,-0.1054342755083143,11854,0.02176491932379343,Minutes of reading per extra screen hour,Weighted R²
+winsor,"OLS + full controls, winsorized",-0.34675581573620856,0.14029311629831115,-0.621752631903195,-0.0717589995692221,12167,0.02578270096204749,Minutes of reading per extra screen hour,Weighted R²
+intensive,OLS among days with any reading,-0.4709011140362427,1.3743294477257089,-3.167181927654986,2.2253796995825006,1236,0.09680037256308938,"Minutes of reading per extra screen hour, readers only",Weighted R²
+logit,"Logit, any reading",-0.0056973698741449395,0.0014106878966402162,-0.008462542467192774,-0.0029321972810971058,12167,0.04851029248351102,Change in the probability of any reading per extra screen hour,Average marginal effect; fit is McFadden pseudo-R²
+tv_hours,"TV and movies, from the component OLS",-0.6149536932668633,0.24494283043471646,-1.0950805896517855,-0.13482679688194127,12167,0.021672598641329643,Minutes of reading per extra hour of this component,Other screen components and the full controls are in the model
+games_hours,"Games, from the component OLS",-0.3638005290116795,0.27288524968877387,-0.8986990103012373,0.17109795227787838,12167,0.021672598641329643,Minutes of reading per extra hour of this component,Other screen components and the full controls are in the model
+computer_hours,"Leisure computer use, from the component OLS",-0.643438053137685,0.3186875436498058,-1.2681163136834528,-0.01875979259191718,12167,0.021672598641329643,Minutes of reading per extra hour of this component,Other screen components and the full controls are in the model

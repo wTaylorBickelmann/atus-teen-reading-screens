@@ -1,0 +1,52 @@
+{
+  "n": 12167,
+  "years": [
+    2003,
+    2024
+  ],
+  "extract": "data/extract/teens_15_18.parquet",
+  "activity_codes": {
+    "t120303": "Television and movies (not religious)",
+    "t120304": "Television (religious)",
+    "t120307": "Playing games (includes video and computer games, and also board games, cards, and puzzles)",
+    "t120308": "Computer use for leisure, excluding games (includes leisure browsing and social-media sites; device is not identified)",
+    "t120312": "Reading for personal interest (includes print, e-readers, and audiobooks)"
+  },
+  "files": {
+    "atussum-0324.zip": {
+      "path": "data/raw/atussum-0324.zip",
+      "official_url": "https://www.bls.gov/tus/datafiles/atussum-0324.zip",
+      "source": "cache",
+      "sha256": "bf39ac14710ab4850c88e3cfc41c6b527bdfb7828549e0f7ccbe889e1d2922a8",
+      "matches_published_extract": true
+    },
+    "atusresp-0324.zip": {
+      "path": "data/raw/atusresp-0324.zip",
+      "official_url": "https://www.bls.gov/tus/datafiles/atusresp-0324.zip",
+      "source": "cache",
+      "sha256": "6556af3a6ccb1676bce99a1db35b0813766787a0e739be7e23e0b3c8abe31381",
+      "matches_published_extract": true
+    },
+    "atusrost-0324.zip": {
+      "path": "data/raw/atusrost-0324.zip",
+      "official_url": "https://www.bls.gov/tus/datafiles/atusrost-0324.zip",
+      "source": "cache",
+      "sha256": "81e0cfd195249b6fb2655abc003990e30b5d854d3a464626fa3d88c0842b81c8",
+      "matches_published_extract": true
+    },
+    "atuscps-0324.zip": {
+      "path": "data/raw/atuscps-0324.zip",
+      "official_url": "https://www.bls.gov/tus/datafiles/atuscps-0324.zip",
+      "source": "cache",
+      "sha256": "d88b32c1429b8d85bbf2c19773c27660101a504c4e4884c8b09d02d8efc66588",
+      "matches_published_extract": true
+    }
+  },
+  "notes": [
+    "Age filter is TEAGE 15 through 18 inclusive.",
+    "Survey weight is TU20FWGT in 2020 and TUFNWGTP in every other year.",
+    "2020 weights represent January 1\u2013March 17 and May 10\u2013December 31 only.",
+    "Family income is HEFAMINC when that edited field is coded, otherwise HUFAMINC.",
+    "Parent education is the highest PEEDUCA among roster persons with TERRP 24."
+  ]
+}
